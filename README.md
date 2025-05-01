@@ -18,7 +18,7 @@ Follow these steps to set up and run the application locally.
 
 ```bash
 git clone <your-repo-url>
-cd akka-financial-app
+cd FinancialAppDemo
 ```
 
 ### 2. Build the Project
@@ -27,7 +27,7 @@ cd akka-financial-app
 mvn clean package
 ```
 
-This produces a runnable fat JAR at `target/akka-financial-app-0.1.0.jar`.
+This produces a runnable fat JAR at `target/FinancialAppDemo-0.1.0.jar`.
 
 ### 3. Start Dependencies
 
@@ -51,7 +51,7 @@ docker-compose ps
 ### 4. Run the Application
 
 ```bash
-java -jar target/akka-financial-app-0.1.0.jar
+java -jar target/FinancialAppDemo-0.1.0.jar
 ```
 
 You should see logs indicating:
