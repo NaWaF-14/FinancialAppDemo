@@ -25,7 +25,7 @@ public class Main {
 
         // Kafka service
         KafkaService kafkaService = new KafkaService(
-                "192.168.56.1:29092"
+                "{host_ip}:29092"
                 );
 
         // Audit service
